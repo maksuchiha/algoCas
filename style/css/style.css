@@ -379,7 +379,7 @@ ul {
   height: 0;
 }
 .feedback-item {
-  flex: 0 0 auto;
+  flex: 0 0 80px;
   max-width: 80px;
   border-radius: 16px;
 }
