@@ -631,6 +631,7 @@ ul {
   border-radius: 20px;
   cursor: pointer;
   z-index: 3;
+  color: #000;
 }
 .go-casino:hover {
   background: linear-gradient(92.14deg, #BCAB0F 6.96%, #B0801E 95.62%);
