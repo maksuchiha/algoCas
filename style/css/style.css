@@ -40,7 +40,8 @@ body {
 }
 
 .overf_active {
-  overflow: hidden;
+  -ms-overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 .container {
@@ -759,3 +760,5 @@ ul {
   font-size: 16px;
   line-height: 19px;
 }
+
+/*# sourceMappingURL=style.css.map */
