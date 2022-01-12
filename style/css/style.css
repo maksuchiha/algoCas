@@ -383,7 +383,7 @@ ul {
   height: 0;
 }
 .feedback-item {
-  flex: 0 0 auto;
+  flex: 0 0 80px;
   display: flex;
   border-radius: 16px;
   width: 80px;
@@ -392,9 +392,10 @@ ul {
 .feedback-item:not(:last-of-type) {
   margin-right: 8px;
 }
-.feedback-item img {
+.feedback-item__link {
   border-radius: 16px;
   width: 100%;
+  background: url("./../../img/feedback/1.jpeg") center/cover no-repeat;
 }
 
 .problems {
