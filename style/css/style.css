@@ -371,6 +371,7 @@ ul {
   padding: 20px 0;
 }
 .feedback__row {
+  margin-top: 16px;
   min-height: 177px;
   overflow: hidden;
 }
@@ -384,7 +385,7 @@ ul {
 }
 .feedback-item {
   flex: 0 0 auto;
-  max-width: 80px;
+  width: 80px;
   display: flex;
   border-radius: 16px;
 }
