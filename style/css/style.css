@@ -99,7 +99,7 @@ ul {
 .header__logo img {
   width: 100%;
   height: 23px;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 .header__nav {
   display: flex;
@@ -173,6 +173,9 @@ ul {
 .statistic__inner {
   min-height: 100px;
   overflow: hidden;
+  max-width: 370px;
+  margin: 0 auto;
+  padding-left: 20px;
 }
 .statistic__wr {
   display: flex;
@@ -605,6 +608,7 @@ ul {
 .logo img {
   height: 140px;
   width: 260px;
+  object-fit: scale-down;
 }
 .logo:before {
   content: "";
@@ -616,8 +620,11 @@ ul {
   top: -198px;
   z-index: 1;
   background: linear-gradient(96.18deg, #F5DD18 -11.82%, #F6329C 110.79%);
-  opacity: 0.1;
+  opacity: 0.19;
   filter: blur(200px);
+}
+.logo_blur:before {
+  opacity: 0.35;
 }
 
 .go-casino {
