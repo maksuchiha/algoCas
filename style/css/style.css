@@ -175,7 +175,7 @@ ul {
   overflow: hidden;
   max-width: 370px;
   margin: 0 auto;
-  padding-left: 20px;
+  padding-left: 25px;
 }
 .statistic__wr {
   display: flex;
@@ -371,10 +371,10 @@ ul {
   padding: 20px 0;
 }
 .feedback__row {
+  min-height: 177px;
   overflow: hidden;
 }
 .feedback__items {
-  margin-top: 22px;
   display: flex;
   overflow: auto;
 }
@@ -383,8 +383,9 @@ ul {
   height: 0;
 }
 .feedback-item {
-  flex: 0 0 80px;
+  flex: 0 0 auto;
   max-width: 80px;
+  display: flex;
   border-radius: 16px;
 }
 .feedback-item:not(:last-of-type) {
