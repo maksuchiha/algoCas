@@ -183,6 +183,9 @@ ul {
 }
 
 .zero {
+  position: static;
+}
+.zero .best {
   display: none;
   position: static;
 }
