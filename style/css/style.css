@@ -187,7 +187,7 @@ ul {
   top: 12px;
 }
 
-.disable {
+.expired {
   filter: grayscale(100%);
 }
 
@@ -533,13 +533,13 @@ ul {
   z-index: 3;
   display: block;
 }
-.deposit_disable .deposit__price {
+.deposit .expired .deposit__price {
   color: #76756D;
   background: none;
   -webkit-text-fill-color: #76756D;
   text-shadow: none;
 }
-.deposit_disable .deposit-rate__statistics {
+.deposit .expired .deposit-rate__statistics {
   color: #76756D;
   filter: grayscale(100%);
 }
