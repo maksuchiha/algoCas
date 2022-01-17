@@ -545,7 +545,11 @@ ul {
 .deposit__price-wr {
   display: flex;
   flex-direction: column;
-  margin-bottom: 19px;
+}
+.deposit__price-top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
 }
 .deposit__price {
   font-weight: 900;
