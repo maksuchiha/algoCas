@@ -678,7 +678,7 @@ ul {
   height: 432px;
   left: 0;
   top: -198px;
-  z-index: 1;
+  z-index: 0;
   background: linear-gradient(96.18deg, #F5DD18 -11.82%, #F6329C 110.79%);
   opacity: 0.19;
   filter: blur(200px);

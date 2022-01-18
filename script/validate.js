@@ -2,7 +2,7 @@
     'use strict'
 
     const loginForm = document.getElementById('loginform')
-    const loginFormBtn = document.getElementById('login-form-submit')
+    const loginFormBtn = document.getElementById('wp-submit')
 
 
     loginForm.addEventListener('input', (e) => {
