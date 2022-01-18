@@ -176,6 +176,7 @@ ul {
 
 .best {
   background: linear-gradient(107.11deg, #E15846 12.27%, #FB5FA1 146.56%);
+  box-shadow: 0 4px 20px rgba(235, 91, 103, 0.2);
 }
 
 .expired {
@@ -827,5 +828,3 @@ ul {
   font-size: 16px;
   line-height: 19px;
 }
-
-/*# sourceMappingURL=style.css.map */
