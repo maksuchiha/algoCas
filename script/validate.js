@@ -1,17 +1,18 @@
 (() => {
     'use strict'
 
-    const loginFormPass = document.getElementById('password')
+    const loginForm = document.getElementById('loginform')
     const loginFormBtn = document.getElementById('login-form-submit')
 
-    const validatePass = () => {
-        if (loginFormPass.value !== '') {
-            loginFormBtn.classList.remove('go-casino_disabled')
-        } else {
-            loginFormBtn.classList.add('go-casino_disabled')
-        }
-    }
 
-    loginFormPass.addEventListener('input', validatePass)
+    loginForm.addEventListener('input', (e) => {
+        if (e.target.closest('input')) {
+            if (e.target.value !== '') {
+                loginFormBtn.classList.remove('go-casino_disabled')
+            } else {
+                loginFormBtn.classList.add('go-casino_disabled')
+            }
+        }
+    })
 })()
 
